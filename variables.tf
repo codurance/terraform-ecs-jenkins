@@ -8,12 +8,12 @@ variable "secret_key" {
 
 variable "region" {
   description = "The AWS region to create resources in."
-  default = "us-east-1"
+  default = "eu-west-2"
 }
 
 variable "availability_zone" {
   description = "The availability zone"
-  default = "us-east-1b"
+  default = "eu-west-2b"
 }
 
 variable "ecs_cluster_name" {
@@ -27,7 +27,8 @@ variable "amis" {
     us-east-1 = "ami-8f7687e2"
     us-west-1 = "ami-bb473cdb"
     us-west-2 = "ami-84b44de4"
-    eu-west-1 = "ami-4e6ffe3d"
+    eu-west-1 = "ami-7827b301"
+    eu-west-2 = "ami-acd5cdc8"
     eu-central-1 = "ami-b0cc23df"
     ap-northeast-1 = "ami-095dbf68"
     ap-southeast-1 = "ami-cf03d2ac"

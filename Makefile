@@ -11,7 +11,7 @@
 
 # ####################################################
 #
-STATEBUCKET = mycompany-terraform
+STATEBUCKET = fullfilment-terraform
 PREFIX = jenkins
 
 # # Before we start test that we have the mandatory executables available
